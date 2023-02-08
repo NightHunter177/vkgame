@@ -1,3 +1,4 @@
-document.querySelector('#cont').addEventListener('touchstart', function(){
-	document.querySelector('#cont').style.background = '#f00';
+var counterVal = 0;
+document.querySelector('#click-div').addEventListener('touchstart', function(){
+    updateDisplay(++counterVal);
 });
