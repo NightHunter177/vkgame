@@ -1,2 +1,2 @@
 onkeydown = e =>  e.key == ' ' ? clicksCountSpan.innerText++ : 0
-el.addEventListener('touchstart', () => { clicksCountSpan.innerText++ });
+TouchStart = e => e.key == 'touchstart' ? clicksCountSpan.innerText++ : 0
